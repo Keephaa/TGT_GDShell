@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://example/Main.gd" type="Script" id=1]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Camera2D
+
+
+# warning-ignore:unused_argument
+func _process(delta):
+	pass
+#	offset.x += 50 * delta
+"
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = SubResource( 1 )
