@@ -1,5 +1,5 @@
 # TGT GDShell
-Trubak's Godot Tools - Godot Shell<br>
+Trubak's Godot Tools - GDShell<br>
 Easy to use programmable in game console with no external dependencies for <a href=https://godotengine.org/>Godot</a>
 
 In dev<br>
