@@ -8,7 +8,7 @@ var _ShellWindow = preload("res://addons/TGT_GDShell/ShellWindow.tscn")
 var _active : bool = false
 
 
-func _ready():
+func _ready() -> void:
 	_ShellWindow = _ShellWindow.instance()
 	get_tree().get_current_scene().add_child(_ShellWindow)
 
@@ -20,7 +20,7 @@ func _input(event) -> void:
 
 func enable_console() -> void:
 	_active = true
-	#add code to enable
+
 
 
 func disable_console() -> void:
